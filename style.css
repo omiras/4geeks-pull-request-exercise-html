@@ -59,6 +59,7 @@ body {
 
 .NFT-stats {
     display: flex;
+    justify-content: space-between;
 }
 
 .NFT-price,
