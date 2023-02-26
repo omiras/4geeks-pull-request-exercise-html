@@ -59,6 +59,7 @@ body {
 
 .NFT-stats {
     display: flex;
+    justify-content: space-between;
 }
 
 .NFT-price,
@@ -89,6 +90,10 @@ body {
 
 .NFT-image {
     position: relative;
+}
+
+.NFT-daysleft{
+    width: 80px;
 }
 
 .NFT-image:hover .NFT-image-overlay {
