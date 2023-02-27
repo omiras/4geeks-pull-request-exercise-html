@@ -57,8 +57,16 @@ body {
     font-weight: 300;
 }
 
+
+/* Añadí un space-between para que hubiese una separación, como en la imagen */
 .NFT-stats {
     display: flex;
+    justify-content: space-between;
+}
+
+/* Añadí esta clase con un width de 80px para que el texto se quedase tal y como la imagen que nos mostró */
+.NFT-daysleft {
+    width:80px;
 }
 
 .NFT-price,
